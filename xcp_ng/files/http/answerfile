@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<installation mode="fresh" sr-type="ext">
+    <primary-disk>sda</primary-disk>
+    <keymap>us</keymap>
+    <root-password type="plaintext">DefaultRootPasswordUsedInAnswerfile</root-password>
+    <source type="local"></source>
+    <timezone>Europe/Paris</timezone>
+    <admin-interface name="eth0" proto="dhcp" />
+</installation>

@@ -1,0 +1,12 @@
+[Unit]
+Description=Configure a minimal working network connectivity
+Require=xapi.service
+After=xapi.target
+
+[Service]
+ExecStart=/usr/local/bin/minimal_connectivity.bash
+RemainAfterExit=yes
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
